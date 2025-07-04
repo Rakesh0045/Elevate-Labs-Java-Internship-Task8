@@ -27,6 +27,7 @@ A simple console-based Java quiz application to test user knowledge through mult
 
 ## 📁 Project Structure
 
+```
 
 QuizApp/
 │
@@ -37,7 +38,7 @@ QuizApp/
 ├── Screenshot.png          // (Optional) UI screenshot
 └── README.md               // Project documentation
 
-
+```
 
 ---
 
