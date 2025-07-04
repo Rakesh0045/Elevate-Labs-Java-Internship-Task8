@@ -1,0 +1,52 @@
+1. What are Java loops?  
+Loops in Java are used to execute a block of code repeatedly until a certain condition is met. Types of loops include `for`, `while`, and `do-while`.
+
+2. What is enhanced for-loop?  
+The enhanced for-loop (also called for-each loop) is a simplified `for` loop used for iterating over arrays and collections.
+
+Example:  
+for (String item : list) {  
+    System.out.println(item);  
+}
+
+3. How do you handle multiple user inputs?  
+Use `Scanner` class for input. Loop or call `nextInt()`, `nextLine()`, etc., multiple times as needed.
+
+Example:  
+Scanner sc = new Scanner(System.in);  
+String name = sc.nextLine();  
+int age = sc.nextInt();
+
+4. How is switch-case different from if-else?  
+| if-else                        | switch-case                  |
+|-------------------------------|------------------------------|
+| Supports conditions            | Only supports constants      |
+| Good for range/comparisons     | Cleaner for fixed options    |
+| Slower with many conditions    | More readable for discrete values |
+
+5. What are collections in Java?  
+Collections are frameworks like `List`, `Set`, and `Map` used to store and manipulate groups of objects dynamically.
+
+6. What is ArrayList?  
+ArrayList is a resizable array provided in Java Collections Framework. It allows dynamic insertion, deletion, and access of elements.
+
+7. How to iterate using iterators?  
+Use `Iterator` to traverse collections safely.
+
+Example:  
+Iterator<String> it = list.iterator();  
+while(it.hasNext()) {  
+    System.out.println(it.next());  
+}
+
+8. What is a Map?  
+Map is a key-value pair data structure. Keys are unique, values can repeat. Example: `HashMap`, `TreeMap`.
+
+9. How to sort a list?  
+Use: `Collections.sort(list);`  
+For custom sort:  
+`Collections.sort(list, Comparator);`
+
+10. How to shuffle elements?  
+Use `Collections.shuffle(list);` to randomly reorder elements in a list.
+
